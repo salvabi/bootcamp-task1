@@ -1,0 +1,147 @@
+/* .Reset... */
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.request-item__title{
+    color: rgb(60, 60, 215);
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.request-item__date{
+    color: #444;
+    font-size: 1rem;
+    
+} 
+.request-item__intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.request-item__intro-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-container{
+    width: 40px;
+    height: 40px;
+    background-color: #AFCEDD;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.request-item__number{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.request-item__id{
+    display: block;
+}
+.btn{
+    outline: 0;
+    border: 0;
+    padding: 1.5rem 1.5rem;
+    border-radius: 8px;
+    cursor:pointer ;
+    margin: 1rem 0;
+    text-align: center;
+    white-space:nowrap;
+    font-size: 1.4rem;
+}
+.request-item__button{
+    background-color: #74c7bc;
+    color: #fff;
+    font-size: "iranyekan";
+}
+
+.request-section{
+    margin: 2rem;
+    padding: 2rem 1rem;
+}
+h1{
+    font-family: "iranyekan";
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.request{
+    display:grid;
+    /* background-color: gold; */
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    height: 100vh;
+}
+.request-item{
+    background-color:rgb(255, 253, 253);
+    padding: 1.5rem;
+   
+}
+.request-item__body{
+    margin: 1rem 0;
+}
+
+.request-item__body-title{
+    font-size: 1.8rem;
+    font-family: "iranyekan";
+    font-weight: bold;
+}
+
+.request-item__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.requeest-item__profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.request-item__name{
+    color: black;
+    font-size: 1.6rem;
+    font-family: "iranyekan";
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.request-item__end-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px){
+    .request{
+        grid-template-columns: 1fr 1fr;
+    }
+    .h1{
+        font-size: 1.6rem;
+    }
+    .request{
+        height: 80vh;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .request{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1{
+       font-size: 1.8rem;
+    }
+    .request{
+        height: 70vh;
+    }
+}
+/* Container */
+.container{
+    max-width:1140px;
+    margin:0 auto;
+}
