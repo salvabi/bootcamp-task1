@@ -2,21 +2,21 @@
     font-family: "iranYekan";
     font-weight: 400px;
     font-style: normal;
-    src: url(/task/asset/font/IRANYekanWebRegular.woff) format("woff");
+    src: url(/asset/font/IRANYekanWebRegular.woff) format("woff");
 
 }
 @font-face {
     font-family: "iranYekan";
     font-weight: 700px;
     font-style: bold;
-    src: url(/task/asset/font/IRANYekanWebExtraBold.woff) format("woff");
+    src: url(/asset/font/IRANYekanWebExtraBold.woff) format("woff");
     
 }
 @font-face {
     font-family: "iranYekan";
     font-weight: 300px;
     font-style: normal;
-    src: url(/task/asset/font/iranyekanwebregularfanum.woff) format("woff");
+    src: url(/asset/font/iranyekanwebregularfanum.woff) format("woff");
 }   
 
 body,button{
